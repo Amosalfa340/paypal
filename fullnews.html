@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Blogy - Hey, we’re Blogy. See our thoughts, stories and ideas.</title>
+  <meta name="title" content="Blogy - Hey, we’re Blogy. See our thoughts, stories and ideas.">
+  <meta name="description" content="This is a blog html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="logo.svg" width="129" height="40" alt="Blogy logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover:underline" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="fullnews.html" class="navbar-link hover:underline" data-nav-link>Recent Post</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover:underline" data-nav-link>Membership</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Search</span>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="span one"></span>
+          <span class="span two"></span>
+          <span class="span three"></span>
+        </button>
+
+        <a href="#" class="btn">Join</a>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BAR
+  -->
+
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" placeholder="Search" class="input-field">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Please enter at least 3 characters</p>
+
+  </div>
+
+  <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <strong class="strong">Hey, we’re Blogy.</strong> See our thoughts, stories and ideas.
+          </h1>
+
+          <div class="wrapper">
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email_address" placeholder="Your email address" class="email-field">
+
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+
+            <p class="newsletter-text">
+              Get the email newsletter and unlock access to members-only content and updates
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+   <section class="section featured" id="topnews" aria-label="featured post">
+        <div class="container">
+
+
+            <div class="content">
+    <h1>Breaking News: PayPal Service Interruption Resolved</h1>
+            <img src="Screenshot_20240531-041519.jpg" width="300" height="250" alt="police">
+
+    <p>Good day, valued PayPal users. We bring you breaking news regarding recent service interruptions experienced by some of our esteemed customers.</p>
+    <p>After diligent efforts and round-the-clock collaboration, we are thrilled to announce that the technical issue affecting PayPal services has been successfully resolved. This means that all PayPal functionalities are now back online and fully operational.
+<br>
+<br>
+We extend our sincerest gratitude to all affected users for their patience and understanding during this period of inconvenience. Your unwavering support and cooperation have been invaluable as we worked tirelessly to restore normalcy to our platform.</p>
+
+<p>
+  
+For further assistance or inquiries, please don't hesitate to contact our dedicated customer support team.
+</p>
+<p>
+  Thank you for choosing PayPal, where your satisfaction and security are our top priorities.
+<br><br>
+Stay tuned for more updates as we continue to strive for excellence in serving you, our valued customers.
+
+This has been a special broadcast from PayPal
+</p>
+
+    
+    
+</div>
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+
+        
+
+          <p class="footer-text">
+Humanity Support News line
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+
+
+
+        </ul>
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; Blogy 2024. Published by <a href="index.html" class="copyright-link hover:underline">Blogy</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
